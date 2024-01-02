@@ -52,7 +52,7 @@ function generateImportRangeFormulas() {
   // Find the range of the "Timeline" table and generate the import range formula
   var timelineTable = findRange("Timeline");
   var timelineStart = timelineTable.start;
-  var timelineStartDate = timelineStart+2;
+  var timelineStartDate = timelineStart+3;
   var timelineEnd = timelineTable.end;
   var timeline = '={' +
     'IMPORTRANGE("' + url + '", "'+ sheet +'!A' + timelineStart+':D'+timelineStart+'");' +
