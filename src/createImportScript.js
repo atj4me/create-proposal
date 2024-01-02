@@ -81,12 +81,12 @@ function generateImportRangeFormulas() {
   // Define the data to be added to the sheet
   var data = [
     ["Requirement Table", "'"+requirements.toString()],
-    ["Main Table", "'"+ mainTable.toString()],
-    ["Client Table", "'"+ clientTable.toString()],
     ["Efforts Table", "'"+ efforts.toString()],
     ["Cost Table", "'"+ cost.toString()],
     ["Estimation Table", "'"+ estimation.toString()],
     ["Timeline Table", "'"+ timeline.toString()]
+    ["Main Table", "'"+ mainTable.toString()],
+    ["Client Table", "'"+ clientTable.toString()],
   ];
   
   // Get the range to set the values in
